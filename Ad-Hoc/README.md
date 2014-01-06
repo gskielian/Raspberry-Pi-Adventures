@@ -38,4 +38,4 @@ sudo ifdown wlan0
 sudo ifup wlan0
 ```
 
-(You can also just reset your raspberry pi with `sudo shutdown -r now`)
+(Alternatively you could reset your raspberry pi with `sudo shutdown -r now`, but then you would need to wait)
