@@ -45,6 +45,8 @@ sudo ifup wlan0
 
 If you have the RTL8192cu Chipset, like this awesome one from adafruit:
 
-<a href="http://www.adafruit.com/products/1030#Technical_Details"> <img src="http://www.adafruit.com/images/large/1030_LRG.jpg" width="200px" alt="adafruit's awesome wifi with antennae for more range"> </a>
+<a href="http://www.adafruit.com/products/1030#Technical_Details"> <img src="http://www.adafruit.com/images/large/1030_LRG.jpg" width="300px" alt="adafruit's awesome wifi with antennae for more range"> </a>
+
+Then you will need to download a driver from the following website:
 
 http://www.electrictea.co.uk/rpi/8192cu.tar.gz
