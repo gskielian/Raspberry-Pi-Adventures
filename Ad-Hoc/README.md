@@ -39,3 +39,13 @@ sudo ifup wlan0
 ```
 
 (Alternatively you could reset your raspberry pi with `sudo shutdown -r now`, but then you would need to wait)
+
+
+### Workarounds and drivers
+
+If you have the RTL8192cu Chipset, like this awesome one from adafruit:
+
+![adafruit awesome wifi](http://www.adafruit.com/images/large/1030_LRG.jpg)
+[link to source](http://www.adafruit.com/products/1030#Technical_Details)
+
+http://www.electrictea.co.uk/rpi/8192cu.tar.gz
