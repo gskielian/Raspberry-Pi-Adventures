@@ -50,3 +50,14 @@ If you have the RTL8192cu Chipset, like this awesome one from adafruit:
 Then you will need to download a driver from the following website:
 
 http://www.electrictea.co.uk/rpi/8192cu.tar.gz
+
+go ahead and untar this package with the usual:
+
+```bash
+tar xf 8192cu.tar.gz
+```
+
+and install the driver with:
+``` bash
+sudo install -p -m 44 8192cu.ko /lib/firmware/rtl8712u.bin
+```
