@@ -37,3 +37,5 @@ Then write quit and reset your wifi settings with the following two commands:
 sudo ifdown wlan0
 sudo ifup wlan0
 ```
+
+(You can also just reset your raspberry pi with `sudo shutdown -r now`)
