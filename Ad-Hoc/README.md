@@ -7,8 +7,7 @@ This is this meaning of hte __Ad-Hoc__ Network.
 
 You can surprisingly accomplish this task in less than 10 minutes. 
 
-Steps:
-------
+### Steps:
 
 
 first vim into /etc/network/interfaces 
