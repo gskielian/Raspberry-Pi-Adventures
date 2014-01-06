@@ -7,7 +7,7 @@ This is this meaning of hte __Ad-Hoc__ Network.
 
 You can surprisingly accomplish this task in less than 10 minutes. 
 
-### Steps:
+### Step 1: configuring your interfaces
 
 
 first vim into /etc/network/interfaces 
@@ -28,6 +28,8 @@ iface wlan0 inet static
   wireless-essid AwesomeAdhocNetwork
   wireless-mode ad-hoc
 ```
+
+### Step 2: Reset your wifi settings
 
 Then write quit and reset your wifi settings with the following two commands:
 
