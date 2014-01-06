@@ -1,4 +1,14 @@
-This will contain configurations for setting up a raspberry pi and wireless card for communication via WIFI.
+Setting Up an Ad-Hoc Network
+============================
+
+Suppose you would like to set up the raspberry pi to communicate to another device via wireless -- directly (wifi to wifi direct connection without routers or anything).
+
+This is this meaning of hte __Ad-Hoc__ Network.
+
+You can surprisingly accomplish this task in less than 10 minutes. 
+
+Steps:
+------
 
 
 first vim into /etc/network/interfaces 
