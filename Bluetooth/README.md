@@ -23,7 +23,7 @@ finally uncomment the following line in `/etc/inittab` and change it to look lik
 T0:23:respawn:/sbin/getty -L ttyAMA0 9600 vt100`
 ```
 
-
+for the next step we'll require some more command line tools:
 ```sh
 sudo apt-get update
 sudo apt-get install -y bluetooth bluez-utils blueman
