@@ -31,3 +31,10 @@ sudo apt-get install -y bluetooth bluez-utils blueman
 
 Todo:
 aquire and send the data to the UART of the raspberry pi
+
+towards UART:
+
+```sh
+sudo apt-get install minicom
+```
+
