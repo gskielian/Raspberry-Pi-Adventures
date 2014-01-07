@@ -28,3 +28,6 @@ for the next step we'll require some more command line tools:
 sudo apt-get update
 sudo apt-get install -y bluetooth bluez-utils blueman
 ```
+
+Todo:
+aquire and send the data to the UART of the raspberry pi
