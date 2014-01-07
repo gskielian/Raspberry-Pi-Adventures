@@ -22,3 +22,8 @@ finally uncomment the following line in `/etc/inittab` and change it to look lik
 ```sh
 T0:23:respawn:/sbin/getty -L ttyAMA0 9600 vt100`
 ```
+
+
+```sh
+sudo apt-get install bluetooth
+```
