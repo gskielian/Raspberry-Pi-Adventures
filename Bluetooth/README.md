@@ -25,5 +25,6 @@ T0:23:respawn:/sbin/getty -L ttyAMA0 9600 vt100`
 
 
 ```sh
-sudo apt-get install bluetooth
+sudo apt-get update
+sudo apt-get install -y bluetooth bluez-utils blueman
 ```
