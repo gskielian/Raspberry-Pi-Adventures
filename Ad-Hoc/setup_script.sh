@@ -22,7 +22,7 @@ sudo chmod 755 /usr/sbin/hostapd
 echo "checkpoint 3"
 read command
 
-sudo mv /etc/network/interfaces/ /etc/network/interfaces.bak
+sudo mv /etc/network/interfaces /etc/network/interfaces.bak
 sudo sh -c "cat etc.network.interfaces > /etc/network/interfaces"
 
 echo "checkpoint 4"
