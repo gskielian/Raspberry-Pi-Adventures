@@ -9,9 +9,10 @@ iface eth0 inet dhcp
 allow-hotplug wlan0
 iface wlan0 inet static
 
-address=192.168.20.1
-netmask=255.255.255.0
-
+address 192.168.20.1
+netmask 255.255.255.0
+#nameserver 8.8.8.8
+#servic network restart
 
 #bridge
 # auto br0
