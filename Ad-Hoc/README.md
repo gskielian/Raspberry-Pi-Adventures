@@ -7,6 +7,12 @@ This is this meaning of hte __Ad-Hoc__ Network.
 
 You can surprisingly accomplish this task in less than 10 minutes. 
 
+### Step 0: installing additional packages
+
+```bash
+sudo apt-get install hostapd udhcpd
+```
+
 ### Step 1: configuring your interfaces
 
 
