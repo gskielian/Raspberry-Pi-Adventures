@@ -46,6 +46,8 @@ sudo chmod 755 /usr/sbin/hostapd
 
 sudo hostapd ./hostapd.conf
 
+sudo ifup wlan0 #if this line isn't here, it erroneously expects WEP instead of WPA2
+
 chmod +x initSoftAP
 ./initSoftAP wlan0
 

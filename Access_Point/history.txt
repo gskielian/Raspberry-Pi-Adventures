@@ -1,0 +1,78 @@
+    1  sudo nano /etc/network/interfaces 
+    2  exit
+    3  sudo nano /etc/network/interfaces 
+    4  sudo ifdown wlan0 && sudo ifup wlan0
+    5  ping www.google.com
+    6  sudo ifup wlan0
+    7  ping www.google.com
+    8  sudo shutdown -h now
+    9  ls
+   10  nano /etc/network/interfaces 
+   11  sudo nano /etc/network/interfaces 
+   12  sudo ifdown wlan0
+   13  sudo ifup wlan0
+   14  ls
+   15  sudo apt-get install vim
+   16  vim .vimrc
+   17  ls
+   18  vim .vimrx
+   19  ls
+   20  *+
+   21  sudo vim /etc/network/interfaces 
+   22  sudo shutdown -h now
+   23  ifconfig
+   24  sudo vim /etc/modprobe.d/8192cu.conf
+   25  sudo reboot
+   26  ls
+   27  cd .ssh
+   28  ls
+   29  cd .ssh
+   30  ls
+   31  ls a-
+   32  ls -a
+   33  sudo raspi-config
+   34  ls
+   35  ls a-
+   36  ls -a
+   37  mkdir .ssh
+   38  cd .ssh
+   39  ls
+   40  sudo apt-get install ssh
+   41  mkdir authorized_keys
+   42  ls
+   43  rmdir authorized_keys/
+   44  vim authorized_keys
+   45  cd ..
+   46  chmod 700 ./.ssh/
+   47  chmod 600 ./.ssh/authorized_keys 
+   48  exit
+   49  ls
+   50  espeak hi
+   51  sudo apt-get install figlet
+   52  ls
+   53  sudo apt-get install hostapd isc-dhcp-server
+   54  sudo vim /etc/dhcp/dhcpd.conf
+   55  cd
+   56  vim .vimrc
+   57  sudo vim /etc/dhcp/dhcpd.conf
+   58  cd /
+   59  ls
+   60  cd root/
+   61  ls
+   62  sudo cd root
+   63  ls
+   64  su
+   65  su root
+   66  sudo /root/.vimrc
+   67  sudo vim /root/.vimrc
+   68  ls
+   69  cd
+   70  ls
+   71  sudo vim /etc/dhcp/dhcpd.conf
+   72  sudo cat /etc/dhcp/dhcpd.conf
+   73  sudo vim /etc/default/isc-dhcp-server
+   74  sudo vat /etc/default/isc-dhcp-server
+   75  sudo cat /etc/default/isc-dhcp-server
+   76  sudo ifdown wlan0
+   77  ls
+   78  history > history.txt
