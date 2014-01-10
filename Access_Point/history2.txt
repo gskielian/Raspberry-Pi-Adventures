@@ -1,0 +1,120 @@
+    1  sudo nano /etc/network/interfaces 
+    2  exit
+    3  sudo nano /etc/network/interfaces 
+    4  sudo ifdown wlan0 && sudo ifup wlan0
+    5  ping www.google.com
+    6  sudo ifup wlan0
+    7  ping www.google.com
+    8  sudo shutdown -h now
+    9  ls
+   10  nano /etc/network/interfaces 
+   11  sudo nano /etc/network/interfaces 
+   12  sudo ifdown wlan0
+   13  sudo ifup wlan0
+   14  ls
+   15  sudo apt-get install vim
+   16  vim .vimrc
+   17  ls
+   18  vim .vimrx
+   19  ls
+   20  *+
+   21  sudo vim /etc/network/interfaces 
+   22  sudo shutdown -h now
+   23  ifconfig
+   24  sudo vim /etc/modprobe.d/8192cu.conf
+   25  sudo reboot
+   26  ls
+   27  cd .ssh
+   28  ls
+   29  cd .ssh
+   30  ls
+   31  ls a-
+   32  ls -a
+   33  sudo raspi-config
+   34  ls
+   35  ls a-
+   36  ls -a
+   37  mkdir .ssh
+   38  cd .ssh
+   39  ls
+   40  sudo apt-get install ssh
+   41  mkdir authorized_keys
+   42  ls
+   43  rmdir authorized_keys/
+   44  vim authorized_keys
+   45  cd ..
+   46  chmod 700 ./.ssh/
+   47  chmod 600 ./.ssh/authorized_keys 
+   48  exit
+   49  sudo vim /etc/network/interfacess
+   50  sudo vim /etc/network/interfaces
+   51  sudo ifconfig wlan0 192.168.42.1
+   52  sudo vim /etc/host/hostapd.conf
+   53  ls
+   54  cd
+   55  ls
+   56  cd ..
+   57  ls
+   58  cd ..
+   59  ls
+   60  sudo vim /etc/host/hostapd.conf
+   61  ls
+   62  cd ~/
+   63  ls
+   64  cd ~
+   65  ls
+   66  sudo vim /etc/hostapd/hostapd.conf
+   67  sudo vim /etc/default/hostapd 
+   68  sudo vim /etc/sysctl.conf
+   69  sudo sh -c "echo 1 > /proc/sys/net/ipv4/ip_forward"
+   70  sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+   71  sudo iptables -A FORWARD -i eth0 -o wlan0 -m state --state RELATED,ESTABLISHED -j ACCEPT
+   72  sudo iptables -A FORWARD -i wlan0 -o eth0 -j ACCEPT
+   73  sudo iptables -t nat -S
+   74  sudo iptables -S
+   75  sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
+   76  sudo vim /etc/network/interfaces
+   77  sudo ifup wlan0
+   78  sudo vim /etc/network/interfaces
+   79  sudo ifup wlan0
+   80  wget http://www.adafruit.com/downloads/adafruit_hostapd.zip
+   81  sudo mv /usr/sbin/hostapd /usr/sbin/hostapd.ORIG
+   82  sudo mv hostapd /usr/sbin
+   83  ls
+   84  unzip adafruit_hostapd.zip 
+   85  sudo mv hostapd /usr/sbin
+   86  sudo chmod 755 /usr/sbin/hostapd
+   87  sudo vim /etc/network/interfaces
+   88  sudo ifdown wlan0
+   89  sudo /usr/sbin/hostapd /etc/hostapd/hostapd.conf 
+   90  sudo service hostapd start
+   91  sudo service isc-dhcp-server start
+   92  sudo vim /etc/network/interfaces 
+   93  sudo ifdown wlan-0
+   94  sudo ifdown wlan0
+   95  sudo ifup wlan0
+   96  sudo service hostapd start
+   97  lspci -k | grep -A 3 -i "network"
+   98  sudo lspci -k | grep -A 3 -i "network"
+   99  sudo vim /proc/bus/pci
+  100  modinfo athk
+  101  modinfo 
+  102  vim ls
+  103  :q
+  104  ls
+  105  vim hostapd-test.conf
+  106  history | grep onf
+  107  sudo vim /etc/hostapd/hostapd.conf 
+  108  ls
+  109  ping www.google.com
+  110  sudo /etc/dhcpd.conf
+  111  sudo vim  /etc/dhcpd.conf
+  112  sudo vim /etc/dhcp/dhcpd.conf
+  113  vim initSoftAP
+  114  vim initSoftAP 
+  115  lspci -k 
+  116  vim initSoftAP 
+  117  bash ./initSoftAP wlan0
+  118  chmod +x initSoftAP 
+  119  sudo ./initSoftAP wlan0
+  120  history > history2.txt
