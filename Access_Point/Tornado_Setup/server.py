@@ -1,9 +1,10 @@
 import tornado.ioloop
 import tornado.web
+import serial
 
-class MainHandler(tornado.webRequestHandler):
+class MainHandler(tornado.web.RequestHandler):
   def get(self):
-    self.write("Hello, world")
+    self.write("<img src='/home/pi/ocr_pi.png' alt='nothign'>")
 
 application = tornado.web.Application([
   (r"/", MainHandler),
