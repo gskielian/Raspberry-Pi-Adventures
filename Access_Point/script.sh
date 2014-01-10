@@ -42,3 +42,12 @@ sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
 sudo mv /usr/sbin/hostapd /usr/sbin/hostapd.ORIG
 sudo cp adafruit_hostapd usr/sbin/hostapd
 sudo chmod 755 /usr/sbin/hostapd
+
+
+sudo hostapd ./hostapd.conf
+
+chmod +x initSoftAP
+./initSoftAP wlan0
+
+#mad credits to http://nims11.wordpress.com/2012/04/27/hostapd-the-linux-way-to-create-virtual-wifi-access-point/ for that last bit with initSoftAP
+
