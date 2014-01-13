@@ -6,7 +6,7 @@ sudo apt-get update
 sudo apt-get upgrade
 
 echo "installing pip and dev packages"
-sudo apt-get install python-pip python2.7-dev
+sudo apt-get install -y python-pip python2.7-dev
 
 sudo easy_install -U distribute
 
@@ -15,7 +15,7 @@ sudo pip install tornado
 
 
 echo "installing arduino"
-sudo apt-get install arduino
+sudo apt-get install -y arduino
 sudo usermod -a -G tty pi
 sudo usermod -a -G dialout pi
 
@@ -23,7 +23,7 @@ echo "installing GPIO"
 sudo pip install RPi.GPIO
 
 echo "installing pyserial"
-sudo apt-get install python-serial python3-serial
+sudo apt-get install -y python-serial python3-serial
 
 
 ##letting Tornado fly

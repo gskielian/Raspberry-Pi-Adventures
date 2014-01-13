@@ -28,7 +28,8 @@ if __name__ == "__main__":
   app = tornado.web.Application(
     handlers=[
       (r"/", IndexHandler),
-      (r"/ws", WebSocketHandler)
+      (r"/ws", WebSocketHandler),
+      (r"/static/(.*)", web.StaticFileHandler, {"path": "/var/www"})
     ]
   )
   httpServer = tornado.httpserver.HTTPServer(app)
